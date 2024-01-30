@@ -1,18 +1,18 @@
 # My First Project on Git
 ## Steps 
 ### First Step
-Created a new directory to my master branch called Git
-Added my new file called myfile.txt in the Git directory
-Committed the changes
+- Created a new directory to my master branch called Git
+- Added my new file called myfile.txt in the Git directory
+- Committed the changes
 ```
 PS C:\Users\eniol\New folder> echo "This is a line in the master branch" >> myfile.txt
 >> git add myfile.txt
 >> git commit -m "Add a line in the master branch"
 ```
 ### Second Step
-Created a new branch called godly
-Made changes in godly
-Merged it back to my master branch
+- Created a new branch called godly
+- Made changes in godly
+- Merged it back to my master branch
 
 ```
 PS C:\Users\eniol\New folder> git branch godly
@@ -31,10 +31,10 @@ Fast-forward
 
 ```
 ### Step 3
-Created a third branch called fear
-Intentionally created a conflict
-Resolved conflict
-Committed the changes
+- Created a third branch called fear
+- Intentionally created a conflict
+- Resolved conflict
+- Committed the changes
 ```
 PS C:\Users\eniol\New folder> git branch fear
 PS C:\Users\eniol\New folder> echo "This is a line in the master branch" >> myfile.txt
@@ -59,10 +59,10 @@ PS C:\Users\eniol\New folder> git commit -m "Merged conflict"
 [master 124fe76] Merged conflict
 ```
 ### Step 4
-Listed all branches
-Deleted branch locally
-Understood the difference between local and remote branches
-Explored the concept of tracking branches
+- Listed all branches
+- Deleted branch locally
+- Understood the difference between local and remote branches
+- Explored the concept of tracking branches
 ```
 PS C:\Users\eniol\New folder> git branch
   fear
@@ -77,9 +77,9 @@ PS C:\Users\eniol\New folder> git branch -vv
 * master 124fe76 [origin/master: ahead 5] Merged conflict
 ```
 ### Step 5
-Made Changes
-Committed the changes
-Undid the last commit using git reset
+- Made Changes
+- Committed the changes
+- Undid the last commit using git reset
 ```
 PS C:\Users\eniol\New folder> git add .
 PS C:\Users\eniol\New folder> git commit -m "updated"
@@ -88,5 +88,5 @@ PS C:\Users\eniol\New folder> git commit -m "updated"
 PS C:\Users\eniol\New folder> git reset --soft HEAD^
 ```
 ### Step 6
-Experimented and understood common git commands
+- Experimented and understood common git commands
 
