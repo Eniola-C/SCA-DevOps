@@ -89,7 +89,8 @@ PS C:\Users\eniol\New folder> git reset --soft HEAD^
 ```
 ### Step 6
 - Experimented and understood common git commands
-`#ffffff` Git Status:_
+
+Git Status:_
 The git status command in Git is used to display the current state of your working directory and staging area (index). It provides information about which files have been modified, which files are staged for the next commit, and which files are untracked.
 ```
 PS C:\Users\eniol\New folder> git status
