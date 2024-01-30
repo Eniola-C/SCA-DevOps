@@ -1,6 +1,6 @@
 # My First Project on Git
 ## Steps 
-### First Step
+### Step 1
 - Created a new directory to my master branch called Git
 - Added my new file called myfile.txt in the Git directory
 - Committed the changes
@@ -9,7 +9,7 @@ PS C:\Users\eniol\New folder> echo "This is a line in the master branch" >> myfi
 >> git add myfile.txt
 >> git commit -m "Add a line in the master branch"
 ```
-### Second Step
+### Step 2
 - Created a new branch called godly
 - Made changes in godly
 - Merged it back to my master branch
@@ -110,20 +110,23 @@ Your branch is ahead of 'origin/master' by 6 commits.
 
 nothing to commit, working tree clean
 ```
-Git Log:_
+_Git Log:_
+
 The git log command in Git is used to display a chronological list of commits in a repository. It shows information about each commit, including the commit hash, author, date, and commit message.
 ```
  git log
 commit a77eecea32ca1387a2f387d313025ce13ba068d2 (HEAD -> master)
 ```
-Git Remote:_
+_Git Remote:_
+
 The git remote command in Git is used to manage remote repositories. It allows you to view, add, or remove remote repositories associated with your local Git repository.
 ```
 PS C:\Users\eniol\New folder> git remote
 origin
 ```
 
-Git Diff:_
+_Git Diff:_
+
 The git diff command in Git is used to display the changes between two states of your Git repository.
 ```
 PS C:\Users\eniol\New folder> git diff
@@ -141,13 +144,15 @@ index e7d19b9..d0eeacc 100644
  </body>
  </html>
 ```
-Git Stash:_
+_Git Stash:_
+
 The git stash command in Git is used to save changes that have not been committed yet, allowing you to switch to a different branch, apply changes, or perform other operations without committing your current work.
 ```
 PS C:\Users\eniol\New folder> git stash
 No local changes to save
 ```
-Git Rebase:_
+_Git Rebase:_
+
 git rebase is a Git command used to rewrite commit history by moving, combining, or modifying existing commits. It allows you to integrate changes from one branch onto another, creating a more linear and cleaner history compared to traditional merging.
 ```
 PS C:\Users\eniol\New folder> git rebase
